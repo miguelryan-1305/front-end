@@ -41,6 +41,21 @@
         .fotoHome{
             background-image: url("");
             background-repeat: no-repeat;
+            
+        }
+        .menu{
+            display:none;
+            position:absolute;
+            background-color: green;
+            list-style: none;
+            padding:0;
+        }
+        .dropdown:hover.menu{
+            display:block;
+        }
+        .menu_principal > li{
+            display:inline-block;
+            position:relative;
         }
     </style>
 </head>
@@ -48,12 +63,54 @@
     <header>
        <h1>BARBEARIA SUPER SONIC</h1>
        <h5>O barbeiro com o poder das 7 esmeraldas do caos</h5>
+       <ul class="menu_principal">
+        <li>
+            <a href="">Home</a>
+        </li>
+        <li>
+            <a href="">Serviços</a>
+            <ul class="dropdown">
+                <li>Corte Maculino
+                    <ul class="menu">
+                        <li>
+                            Cabelo
+                        </li>
+                        <li>
+                            Barba
+                        </li>
+                        <li>
+                            Sombracelha
+                        </li>
+                    </ul>
+                </li>
+                <li>Corte Feminino
+                    <ul class="menu">
+                        <li>
+                            Corte
+                        </li>
+                        <li>
+                            Hidratação
+                        </li>
+                        <li>
+                            Pintura
+                        </li>
+                        <li>
+                            Sombracelha
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="">Contato</a>
+        </li>
+        <li>
+            <a href="">Login</a>
+        </li>
+    </ul>
     </header>
     <main>
         <div class="fotoHome"></div>
-        <div class="conteudo">
-            <h1>BARBEARIA SUPER SONIC</h1>
-        </div>
     </main>
     <footer>
 
