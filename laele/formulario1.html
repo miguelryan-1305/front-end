@@ -4,79 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      .site{
+        width:600px;
+        height:600px;
+        background-color: rgb(234, 187, 129);
+      }
+      .linha1{
+        flex-direction:row;
+      }
+      .linha2{
+        flex-direction:row;
+      }
+      .linha3{
+        flex-direction:row;
+      }
+      .linha4{
+        flex-direction:row;
+      }
+      .linha5{
+        flex-direction:row;
+      }
+      .linha6{
+        flex-direction:row;
+      }
+      .linha7{
+        flex-direction:row;
+      }
+      .linha8{
+        flex-direction:row;
+      }
+      .linha9{
+        flex-direction:row;
+      }
+    </style>
 </head>
 <body>
     <div class="site">
         <fieldset>
-            <legend>DADOS PESSOAIS</legend>
+          <legend>DADOS PESSOAIS</legend>
         <div class="linha1">
-          <label>Nome completo: <input type="text"></label>
-            <label>Sexo:
+          <label>Nome Completo:<input type="text"></label>
+          <label>Sexo:
             <select>
-              <option>
-                Masculino
-              </option>
-              <option>
-                Feminino
-              </option>
-              <option>
-                Outros
-              </option>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outros</option>
             </select>
             </label>
         </div>
         <div class="linha2">
-            <label>Data de Nascimento: <input type="date"></label>
-            <label>CPF: <input type="text"></label>
-            <label>RG: <input type="text"></label>
-            <label>Nacionalidade: <input type="text"></label>
+          <label>Data de Nascimento:<input type="date"></label>
+          <label>CPF:<input type="text"></label>
+          <label>RG:<input type="text"></label>
+          <label>Nacionalidade:<input type="text"></label>
         </div>
         <div class="linha3">
-            <input type="email">
-            <input type="number">
-            <input type="number">
+          <label>Email:<input type="email"></label>
+          <label>Telefone Celular:<input type="number"></label>
+          <label>Telefone Residencial:<input type="number"></label>
         </div>
         </fieldset>
         <fieldset>
-            <legend>DADOS DE ENDEREÇO</legend>
+          <legend>DADOS DE ENDEREÇO</legend>
         <div class="linha4">
-           <label>CEP: <input type="number"></label>
-            <label>Logradouro: <input type="text"></label>
-            <label>Numero: <input type="number"></label>
-            <label>Complemento: <input type="text"></label>
+          <label>CEP:<input type="number"></label>
+          <label>Logradouro:<input type="text"></label>
+          <label>Numero:<input type="number"></label>
+          <label>Complemento:<input type="text"></label>
         </div>
         <div class="linha5">
-            <label>Bairro: <input type="text"></label>
-            <label>Cidade: <input type="text"></label>
-            <label>Estado: <select>
-                <option>SP</option>
-            </select>
-            </label>
+          <label>Bairro:<input type="text"></label>
+          <label>Cidade:<input type="text"></label>
+          <label>Estado:<select>
+              <option>SP</option>
+            </select></label>
         </div>
         </fieldset>
         <fieldset>
-            <legend>DADOS ACADEMICOS</legend>
+          <legend>DADOS ACADEMICOS</legend>
         <div class="linha6">
-            <input type="text">
-            <input type="number">
-            <input type="text">
+          <label>Curso:<input type="text"></label>
+          <label>Matricula (RA):<input type="number"></label>
+          <label>Ano/Semestre Ingresso:<input type="text"></label>
         </div>
         <div class="linha7">
-          <select>
-            <option>Presencial</option>
-          </select>
-          <select>
-            <option>Manha</option>  
-          </select>
+          <label>Modalidade:<select>
+              <option>Presencial</option>
+            </select></label>
+          <label>Turno<select>
+              <option>Manha</option>
+            </select></label>
+          <label>Escolaridade Anterior<input type="text"></label>
         </div>
         </fieldset>
         <fieldset>
-            <legend>DADOS DO RESPONSAVEL</legend>
+          <legend>DADOS DO RESPONSAVEL</legend>
         <div class="linha8">
-          
+          <label>Nome do Responsavel:<input type="text"></label>
+          <label>CPF do responsavel<input type="text"></label>
         </div>
         <div class="linha9">
-          
+          <label>Observaçoes:<textarea></textarea></label>
         </div>
         </fieldset>
     </div>
